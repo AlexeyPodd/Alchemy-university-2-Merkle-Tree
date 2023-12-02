@@ -24,3 +24,10 @@ There are a few files in utils:
 - The `example.js` script shows how we can generate a root, generate a proof and verify that some value is in the root using the proof. Try it out from the top-level folder with `node/example.js`
 - The `MerkleTree.js` should look familiar from the Merkle Tree module! This one has been modified so you should not have to deal with any crypto type conversion. You can import this in your client/server
 - The `verifyProof.js` should also look familiar. This was the last stage in the module. You can use this function to prove a name is in the merkle root, as show in the example.
+
+## What was done during the project
+
+1. Created script to generate Merkle Root hash of name list tree.
+2. Modifies client to generate proof, and send it with name of potential gift reciever to server.
+3. Modified server to verify received name with received proof and sending correct response bck to client.
+4. \*Were used scripts from utils folder.
