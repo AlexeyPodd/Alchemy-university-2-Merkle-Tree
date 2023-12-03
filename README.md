@@ -28,6 +28,6 @@ There are a few files in utils:
 ## What was done during the project
 
 1. Created script to generate Merkle Root hash of name list tree.
-2. Modifies client to generate proof, and send it with name of potential gift reciever to server.
-3. Modified server to verify received name with received proof and sending correct response bck to client.
+2. Modifies client to generate proof, and send it with name of potential gift receiver to server.
+3. Modified server to verify received name with received proof and sending correct response back to client.
 4. \*Were used scripts from utils folder.
